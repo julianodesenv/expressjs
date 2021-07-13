@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 
 
 app.use(function(req, res, next) {
-    req.name = 'SON';
+    req.name = 'Teste';
     // console.log('I AM A CUSTOm MIDDLEWARE');
     next();
 });
@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({
 
 app.get('/', function(req, res) {
     res.render('index', {
-        message: 'Hello world from express by SON'
+        message: 'Hello world from express by Teste'
     });
     // res.send('Hello world from express by ' + req.name);
 });

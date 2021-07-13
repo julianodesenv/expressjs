@@ -33,8 +33,8 @@ router.get('/res', function(req, res) {
 
     });
     // res.status(202).json({
-    //     name: 'Leonan',
-    //     lastname: 'Luppi'
+    //     name: 'Juliano',
+    //     lastname: 'Monteiro'
     // });
 });
 
